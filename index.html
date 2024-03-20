@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise 2 Function</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Temperature Converter</h1>
+<p>Invoke (call) a function that converts from Celsius to Fahrenheit:</p>
+<p id="ayawkona"></p>
+
+<script>
+function toFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+}
+
+let celsiusValue = 77; // Celsius value yan
+let fahrenheitValue = toFahrenheit(celsiusValue);
+document.getElementById("ayawkona").innerHTML = celsiusValue + "°C is equal to " + fahrenheitValue + "°F";
+</script>
+
+</body>
+</html>
